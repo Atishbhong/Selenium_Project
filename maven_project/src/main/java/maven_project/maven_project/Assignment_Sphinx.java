@@ -16,7 +16,7 @@ public class Assignment_Sphinx {
 
 	public static RemoteWebDriver driver;
 	
-	
+	//for Sphinx
 	//open edge browser in headless mode 
 	@Test
 	public void headlessmodeTC01() {
