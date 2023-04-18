@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium_project">
+      <class name="maven_project.maven_project.Assignment_Sphinx">
         <methods>
-          <include name="loginpageTC03"/>
+          <include name="headlessmodeTC01"/>
         </methods>
-      </class> <!-- Selenium_project -->
+      </class> <!-- maven_project.maven_project.Assignment_Sphinx -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
