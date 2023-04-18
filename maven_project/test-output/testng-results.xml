@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-14T14:16:37 IST" name="Default suite" finished-at="2023-02-14T14:16:52 IST" duration-ms="15048">
+  <suite started-at="2023-04-18T12:52:57 IST" name="Default suite" finished-at="2023-04-18T12:53:18 IST" duration-ms="20577">
     <groups>
     </groups>
-    <test started-at="2023-02-14T14:16:37 IST" name="Default test" finished-at="2023-02-14T14:16:52 IST" duration-ms="15048">
-      <class name="maven_project.maven_project.SeleniumProject">
-        <test-method signature="navigatewebpageTC02()[pri:0, instance:maven_project.maven_project.SeleniumProject@1b1426f4]" started-at="2023-02-14T14:16:37 IST" name="navigatewebpageTC02" finished-at="2023-02-14T14:16:52 IST" duration-ms="14951" status="PASS">
+    <test started-at="2023-04-18T12:52:57 IST" name="Default test" finished-at="2023-04-18T12:53:18 IST" duration-ms="20577">
+      <class name="Selenium_project">
+        <test-method signature="loginpageTC03()[pri:0, instance:Selenium_project@1b1426f4]" started-at="2023-04-18T12:52:57 IST" name="loginpageTC03" finished-at="2023-04-18T12:52:57 IST" duration-ms="27" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at Selenium_project.loginpageTC03(Selenium_project.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigatewebpageTC02 -->
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:maven_project.maven_project.SeleniumProject@1b1426f4]" started-at="2023-02-14T14:16:52 IST" name="shouldAnswerWithTrue" finished-at="2023-02-14T14:16:52 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- loginpageTC03 -->
+        <test-method signature="openbrowserTC01()[pri:0, instance:Selenium_project@1b1426f4]" started-at="2023-04-18T12:52:57 IST" name="openbrowserTC01" finished-at="2023-04-18T12:53:13 IST" duration-ms="15421" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAnswerWithTrue -->
-        <test-method signature="title()[pri:0, instance:maven_project.maven_project.SeleniumProject@1b1426f4]" started-at="2023-02-14T14:16:52 IST" name="title" finished-at="2023-02-14T14:16:52 IST" duration-ms="14" status="PASS">
+        </test-method> <!-- openbrowserTC01 -->
+        <test-method signature="signupTC02()[pri:0, instance:Selenium_project@1b1426f4]" started-at="2023-04-18T12:53:13 IST" name="signupTC02" finished-at="2023-04-18T12:53:18 IST" duration-ms="5027" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- title -->
-      </class> <!-- maven_project.maven_project.SeleniumProject -->
+        </test-method> <!-- signupTC02 -->
+      </class> <!-- Selenium_project -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

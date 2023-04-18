@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="maven_project.maven_project.SeleniumProject">
+      <class name="Selenium_project">
         <methods>
-          <include name="TC04"/>
+          <include name="loginpageTC03"/>
         </methods>
-      </class> <!-- maven_project.maven_project.SeleniumProject -->
+      </class> <!-- Selenium_project -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
